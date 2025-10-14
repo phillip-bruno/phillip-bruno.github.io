@@ -20,6 +20,7 @@ I love working closely with clients - both inside and outside our company - to i
 
 - 3D Printing
     - I'm an enthusiastic 3D printing hobbyist, I like to tinker and mess around with different digital designs. This hobby allows me to combine my creativity with technical problem-solving, always seeking new challenges and pushing my design skills further. I particularly like [OpenSCAD](https://openscad.org/)
+    - I also used to [write for All3DP](https://all3dp.com/authors/phillipbruno/) in my spare time.
 - Hiking (and walking)
     - I find solace and rejuvenation in spending time outdoors. Whether it's a challenging climb to a sight seeing spot or a stroll through a city park, I appreciate the opportunity to connect with nature and enjoy its beauty firsthand. Hiking not only keeps me physically active but also clears my mind.
 
