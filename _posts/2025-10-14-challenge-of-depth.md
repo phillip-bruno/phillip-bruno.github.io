@@ -7,7 +7,7 @@ tags: [data_engineering, debugging, programming]
 
 Subjectively, I find it much easier to debug code that has a wide breadth of functions but minimal depth. In other words, it’s far simpler to trace through code when you don’t have to juggle multiple layers of custom modules or classes—whether it’s written procedurally or with object-oriented structures. Often, it’s not that the engineer or programmer intended to make the code convoluted; they just got overly enthusiastic about making everything highly reusable or modular, which can sometimes lead to data structures that are a real pain to work with.
 
-![Serenity Now, Insanity Later.](/assets/img/memes/breadth-v-depth.png)
+![Serenity Now, Insanity Later.](/assets/img/memes/breadth-v-depth.webp)
 _Image Caption_
 
 I think it was Chad Fowler who talked a bit about this in [The Passionate Programmer](https://pragprog.com/titles/cfcar2/the-passionate-programmer-2nd-edition/), where quite often we need to distill the problem down to the most basic level, which in of itself can be the biggest challenge for any technical project. Which when processing data is often the most critical part of the problem, since you can't deliver accurate information when you solely focus on the mechanics of moving information from point a to b. I think it's also one of the reasons why every single style of programming and project management can't side-step problems of depth like this, without putting a significant amount of thought in effort behind problem identification before problem solving.
