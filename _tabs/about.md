@@ -10,9 +10,11 @@ order: 4
 
 ## Developer and Manager
 
-I'm a data expert with years of experience under my belt. My main passions are developing ETL solutions, building business intelligence tools, and digging into reporting analytics to uncover insights.
+I'm a data engineer with many years of experience under my belt. At work, my main passions are developing ETL solutions, working with clients to discover requirements, and digging into reporting analytics to uncover insights.
 
-I love working closely with clients - both inside and outside our company - to identify new opportunities and make them happen. When I'm not doing that, you can find me helping out my teammates, whether it's teaching them new skills or just being a sounding board for their ideas. Over the years, I've focused on streamlining processes and finding ways to automate tasks, which has saved us tons of time and money. It's been a blast, and I'm excited to see where this journey takes me next!
+I like to working closely with clients, both inside and outside our company, to identify new opportunities and make them happen. When I'm not doing that, you can find me helping out my teammates, whether it's teaching them new skills or just being a sounding board for their ideas. Over the years, I've focused on streamlining processes and finding ways to automate tasks, which has saved tons of time and money for the companies I've worked for. It's been a blast, and I'm excited to see where this journey takes me next!
+
+On this site, you will see a mash up of some of my personal portfolio, along with a bit about me and some of my POV on modern work life.
 
 ---
 
@@ -35,3 +37,7 @@ I love working closely with clients - both inside and outside our company - to i
     - I find escape and adventure in the imaginative worlds of fantasy literature. Intricate storylines, compelling characters, and epic battles transport me to realms beyond reality, allowing me to explore themes of good versus evil, heroism, and the power of imagination.
 - Science Fiction
     - Science fiction fuels my curiosity about the future and the possibilities that lie ahead. I'm captivated by stories that explore the implications of emerging technologies, alternate realities, and the potential impact of scientific advancements on humanity.
+
+---
+## A Note About this Site
+My content is written by hand and then edited by AI, to correct the terrible phrasing university could never get out of my system, as made obvious by this sentence which I deliberately have not edited.
