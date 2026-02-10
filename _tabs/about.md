@@ -12,24 +12,24 @@ order: 4
 
 ## Lead Data Engineer
 
-I'm a **Lead Data Engineer** with 10+ years of experience building scalable, cloud-native data systems that power analytics, product insights, and mission-critical business operations.
+I'm a Lead Data Engineer with 10+ years of experience building scalable, cloud-native data systems that power analytics, product insights, and mission-critical business operations.
 
-I specialize in **AWS-native architectures**, designing and deploying end-to-end data pipelines using **Lambda, Step Functions, Glue, Redshift, and CodeBuild**. My work focuses on **data ingestion, orchestration, and quality automation**; ensuring data flows reliably from source systems to analytics-ready layers at scale.
+I specialize in AWS-native architectures, designing and deploying end-to-end data pipelines using Lambda, Step Functions, Glue, Redshift, and CodeBuild. My work focuses on data ingestion, orchestration, and quality automation; ensuring data flows reliably from source systems to analytics-ready layers at scale.
 
 ### What I Do
 
-- **Design fault-tolerant ingestion pipelines** for batch and near-real-time data from APIs, databases, and event streams
-- **Automate data quality frameworks** using Python and serverless orchestration, reducing errors and improving observability
-- **Implement CI/CD practices** for data infrastructure, treating pipelines as code and enabling rapid, safe deployments
-- **Optimize cloud costs and query performance** across data warehouses (Redshift, Athena) and ETL workflows
+- Design fault-tolerant ingestion pipelines for batch and near-real-time data from APIs, databases, and event streams
+- Automate data quality frameworks using Python and serverless orchestration, reducing errors and improving observability
+- Implement CI/CD practices for data infrastructure, treating pipelines as code and enabling rapid, safe deployments
+- Optimize cloud costs and query performance across data warehouses (Redshift, Athena) and ETL workflows
 
 ### My Engineering Philosophy
 
-I believe the best data systems are **invisible to end users**, they just work. My approach emphasizes:
+I believe the best data systems are invisible to end, they just work. My approach emphasizes:
 
-- **Simplicity over complexity:** Lean architectures that are easy to debug and maintain
-- **Automation over manual intervention:** If it runs twice, it should be scripted
-- **Observability from day one:** Pipelines should tell you when they're broken before anyone else notices
+- Simplicity over complexity: Lean architectures that are easy to debug and maintain
+- Automation over manual intervention If it runs twice, it should be scripted
+- Observability from day one: Pipelines should tell you when they're broken before anyone else notices
 
 On this site, you will see a mash up of some of my personal portfolio, along with a bit about me and some of my POV on modern work life.
 
