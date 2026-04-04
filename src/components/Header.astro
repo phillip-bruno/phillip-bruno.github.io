@@ -26,8 +26,10 @@ const pathname = Astro.url.pathname;
 
 <style>
   header {
-    background: var(--bg-secondary);
-    border-bottom: 1px solid var(--border);
+    background: rgba(9, 9, 18, 0.55);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     padding: 0 2rem;
     position: sticky;
     top: 0;
