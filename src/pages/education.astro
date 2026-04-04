@@ -68,10 +68,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
-    background: var(--card-bg);
-    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 8px;
     padding: 1rem 1.25rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
+  .cert:hover { border-color: var(--accent); box-shadow: 0 0 18px rgba(255, 45, 120, 0.15); }
   .cert-date { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; padding-top: 2px; min-width: 60px; }
 </style>
