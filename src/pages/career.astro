@@ -4,6 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="Career Experience">
   <h1>Career Experience</h1>
 
+  <div class="resume-container">
+    <a href="/assets/docs/phillip_bruno_resume.pdf" target="_blank" class="resume-button">
+      📄 View / Download Full Resume (PDF)
+    </a>
+  </div>
+
   <section class="job">
     <div class="job-header">
       <h2>Exostatic Inc., Toronto, ON</h2>
@@ -58,6 +64,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
+  /* Added Styling for the Resume Link */
+  .resume-container {
+    margin: 1.5rem 0 2.5rem 0;
+  }
+  .resume-button {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--accent, #0076ff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: opacity 0.2s ease;
+  }
+  .resume-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
+
   .job { margin-bottom: 2rem; }
   .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; }
   .job h2 { margin-bottom: 0.25rem; font-size: 1.3rem; color: var(--accent); }
