@@ -75,7 +75,7 @@ const stages = [
 
   .stage {
     display: grid;
-    grid-template-columns: 7.5rem minmax(0, 1fr);
+    grid-template-columns: var(--ruler) minmax(0, 1fr);
     gap: 0 1.5rem;
     align-items: baseline;
     padding: 1.15rem 0;
@@ -113,7 +113,7 @@ const stages = [
   .more a { text-decoration: none; }
   .more a:hover { text-decoration: underline; }
 
-  @media (max-width: 32rem) {
+  @media (max-width: 40rem) {
     .stage { grid-template-columns: 1fr; gap: 0.35rem; }
     .stage.current::before { display: none; }
   }
