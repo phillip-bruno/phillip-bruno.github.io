@@ -1,112 +1,109 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const sections = [
+  {
+    heading: 'Technical',
+    groups: [
+      { name: 'Data science & ML', items: ['Pandas', 'Polars', 'PyTorch', 'TensorFlow'] },
+      { name: 'Cloud platforms', items: ['AWS', 'Azure', 'Google Cloud'] },
+      { name: 'Analytics & visualization', items: ['Data Studio', 'Looker', 'Power BI', 'Tableau'] },
+      { name: 'Languages', items: ['Python', 'T-SQL', 'Redshift SQL', 'Visual Basic'] },
+    ],
+  },
+  {
+    heading: 'Project management & operations',
+    groups: [
+      {
+        name: 'Methodologies',
+        items: ['Agile', 'Scrum', 'Kanban', 'SAFe', 'Six Sigma', 'PMBOK / Waterfall'],
+      },
+      {
+        name: 'Tools',
+        items: ['Asana', 'Jira', 'Confluence', 'Linear', 'Notion', 'Monday.com'],
+      },
+      {
+        name: 'Management',
+        items: [
+          'Team and schedule management',
+          'Risk management',
+          'Stakeholder communication',
+          'Sprint planning & retrospectives',
+          'OKR / KPI tracking',
+          'Budget & resource management',
+          'Cross-functional collaboration',
+        ],
+      },
+    ],
+  },
+];
 ---
-<BaseLayout title="Skills">
+<BaseLayout title="Skills" description="Technical and project management skills — Phillip Bruno, Lead Data Engineer.">
+  <p class="eyebrow">Capabilities</p>
   <h1>Skills</h1>
 
-  <section>
-    <h2>Technical Skills &amp; Experience</h2>
-    <hr />
-    <div class="skill-grid">
-      <div class="skill-group">
-        <h3>Data Science &amp; Machine Learning</h3>
-        <ul>
-          <li>Pandas</li>
-          <li>Polars</li>
-          <li>PyTorch</li>
-          <li>TensorFlow</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h3>Cloud Computing Platforms</h3>
-        <ul>
-          <li>AWS</li>
-          <li>Azure</li>
-          <li>Google Cloud (G Cloud)</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h3>Data Analytics &amp; Visualization</h3>
-        <ul>
-          <li>Data Studio</li>
-          <li>Looker</li>
-          <li>Power BI</li>
-          <li>Tableau</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h3>Programming Languages</h3>
-        <ul>
-          <li>Python</li>
-          <li>T-SQL</li>
-          <li>Visual Basic</li>
-          <li>Redshift SQL</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Project Management &amp; Operations</h2>
-    <hr />
-    <div class="skill-grid">
-      <div class="skill-group">
-        <h3>Methodologies</h3>
-        <ul>
-          <li>Agile</li>
-          <li>Scrum</li>
-          <li>Kanban</li>
-          <li>SAFe (Scaled Agile Framework)</li>
-          <li>Six Sigma</li>
-          <li>PMBOK / Waterfall</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h3>Tools</h3>
-        <ul>
-          <li>Asana</li>
-          <li>Jira</li>
-          <li>Confluence</li>
-          <li>Linear</li>
-          <li>Notion</li>
-          <li>Monday.com</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h3>Management Skills</h3>
-        <ul>
-          <li>Team and Schedule Management</li>
-          <li>Risk Management</li>
-          <li>Stakeholder Communication
-          <li>Sprint Planning & Retrospectives</li>
-          <li>OKR / KPI Tracking</li>
-          <li>Budget & Resource Management</li>
-          <li>Cross-functional Collaboration</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+  {sections.map(section => (
+    <section class="block">
+      <h2>{section.heading}</h2>
+      <dl>
+        {section.groups.map(group => (
+          <div class="group">
+            <dt class="field">{group.name}</dt>
+            <dd>
+              <ul>
+                {group.items.map(item => <li>{item}</li>)}
+              </ul>
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ))}
 </BaseLayout>
 
 <style>
-  h2 { margin-top: 2rem; }
-  .skill-grid {
+  .block { margin-bottom: 3.5rem; }
+  h2 {
+    font-size: var(--step-2);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule-strong);
+    margin-bottom: 0;
+  }
+
+  dl { margin: 0; }
+
+  .group {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1.25rem;
-    margin-top: 1rem;
+    grid-template-columns: 12rem minmax(0, 1fr);
+    gap: 0 1.5rem;
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--rule);
   }
-  .skill-group {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    transition: border-color 0.2s, box-shadow 0.2s;
+
+  dt { padding-top: 0.15rem; }
+  dd { margin: 0; }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.15rem;
   }
-  .skill-group:hover { border-color: var(--accent); box-shadow: 0 0 18px rgba(255, 45, 120, 0.15); }
-  .skill-group h3 { font-size: 0.95rem; margin: 0 0 0.75rem; color: var(--accent); }
-  ul { padding-left: 1.25rem; margin: 0; color: var(--text-muted); }
-  li { margin-bottom: 0.3rem; font-size: 0.9rem; }
+  li { position: relative; }
+  li + li::before {
+    content: '';
+    position: absolute;
+    left: -0.6rem;
+    top: 0.55em;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--rule-strong);
+  }
+
+  @media (max-width: 40rem) {
+    .group { grid-template-columns: 1fr; gap: 0.5rem; }
+  }
 </style>

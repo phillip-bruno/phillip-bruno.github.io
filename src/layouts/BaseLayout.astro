@@ -3,23 +3,99 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
-const { title = 'Phillip Bruno', description = 'My personal portfolio and blog chronicling the thrilling saga of my professional life.' } = Astro.props;
+interface Props {
+  title?: string;
+  description?: string;
+  wide?: boolean;
+}
+
+const {
+  title = 'Home',
+  description = 'Phillip Bruno — Lead Data Engineer in Toronto. Portfolio, career history, and a blog about building data systems.',
+  wide = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL('/assets/img/favicons/profile.png', Astro.site);
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | Phillip Bruno</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} | Phillip Bruno`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary" />
+
     <script data-goatcounter="https://phillip-bruno.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </head>
   <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
+    <a href="#content" class="skip">Skip to content</a>
+    <div class="shell">
+      <Header />
+      <div class="column">
+        <main id="content" class={wide ? 'wide' : ''}>
+          <slot />
+        </main>
+        <Footer />
+      </div>
+    </div>
   </body>
 </html>
+
+<style>
+  .skip {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--paper-raised);
+    border: 1px solid var(--signal);
+    padding: 0.6rem 1rem;
+    z-index: 200;
+  }
+  .skip:focus {
+    left: 1rem;
+    top: 1rem;
+  }
+
+  .shell {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0 clamp(1.25rem, 4vw, 3rem);
+  }
+
+  .column {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+    max-width: var(--measure);
+    padding: clamp(2rem, 5vw, 4.5rem) 0 4rem;
+  }
+  main.wide { max-width: none; }
+
+  @media (min-width: 64rem) {
+    .shell {
+      grid-template-columns: var(--rail) minmax(0, 1fr);
+      gap: var(--gap);
+    }
+  }
+</style>

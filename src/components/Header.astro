@@ -7,64 +7,149 @@ const navLinks = [
   { href: '/skills', label: 'Skills' },
   { href: '/awards', label: 'Awards' },
 ];
-const pathname = Astro.url.pathname;
+
+const pathname = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const isCurrent = (href: string) =>
+  href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`);
 ---
-<header>
-  <nav>
-    <a href="/" class="site-title">Phillip Bruno</a>
+<header class="rail">
+  <div class="bar">
+    <a href="/" class="identity">
+      <img src="/assets/img/favicons/profile_square.png" alt="" width="40" height="40" class="portrait" />
+      <span class="names">
+        <span class="name">Phillip Bruno</span>
+        <span class="role field">Lead Data Engineer</span>
+      </span>
+    </a>
+
+    <button type="button" class="toggle" aria-expanded="false" aria-controls="rail-nav">
+      <span class="sr-only">Menu</span>
+      <span class="bars" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <nav id="rail-nav" class="nav" aria-label="Main">
     <ul>
       {navLinks.map(link => (
         <li>
-          <a href={link.href} class={pathname === link.href ? 'active' : ''}>
+          <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
             {link.label}
           </a>
         </li>
       ))}
     </ul>
+    <p class="locality field">Toronto, ON</p>
   </nav>
 </header>
 
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.toggle');
+  const nav = document.getElementById('rail-nav');
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav?.classList.toggle('open', !open);
+  });
+</script>
+
 <style>
-  header {
-    background: rgba(9, 9, 18, 0.55);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 0 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  .rail {
+    padding: 1.25rem 0 0;
+    border-bottom: 1px solid var(--rule);
   }
-  nav {
-    max-width: 900px;
-    margin: 0 auto;
+
+  .bar {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    height: 60px;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1.25rem;
   }
-  .site-title {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--accent);
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+  .identity {
     display: flex;
-    gap: 1.25rem;
-    flex-wrap: wrap;
-  }
-  a {
-    color: var(--text-muted);
+    align-items: center;
+    gap: 0.7rem;
     text-decoration: none;
-    font-size: 0.95rem;
-    transition: color 0.2s;
+    color: var(--ink);
   }
-  a:hover, a.active {
-    color: var(--accent);
+  .portrait {
+    border-radius: 50%;
+    border: 1px solid var(--rule-strong);
+    flex-shrink: 0;
+  }
+  .names { display: flex; flex-direction: column; line-height: 1.25; }
+  .name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.02rem;
+    letter-spacing: -0.02em;
+  }
+  .role { font-size: 0.72rem; }
+
+  .toggle {
+    background: none;
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: 0.55rem 0.6rem;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .bars, .bars::before, .bars::after {
+    display: block;
+    width: 16px;
+    height: 1.5px;
+    background: currentColor;
+  }
+  .bars { position: relative; }
+  .bars::before, .bars::after { content: ''; position: absolute; left: 0; }
+  .bars::before { top: -5px; }
+  .bars::after { top: 5px; }
+
+  .nav { display: none; padding-bottom: 1.25rem; }
+  .nav.open { display: block; }
+
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: 0; }
+
+  .nav a {
+    display: block;
+    padding: 0.45rem 0;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--slate);
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    padding-left: 0.85rem;
+  }
+  .nav a:hover { color: var(--ink); }
+  .nav a[aria-current='page'] {
+    color: var(--signal);
+    border-left-color: var(--signal);
+  }
+
+  .locality {
+    margin: 1.25rem 0 0;
+    padding-left: 0.85rem;
+    font-size: 0.72rem;
+  }
+
+  @media (min-width: 64rem) {
+    .rail {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      max-height: 100vh;
+      overflow-y: auto;
+      padding: clamp(2rem, 5vw, 4.5rem) 0 2rem;
+      border-bottom: none;
+      border-right: 1px solid var(--rule);
+      margin-right: calc(var(--gap) * -0.5);
+      padding-right: calc(var(--gap) * 0.5);
+    }
+    .bar { display: block; padding-bottom: 2rem; }
+    .identity { margin-bottom: 0; }
+    .toggle { display: none; }
+    .nav { display: block; padding-bottom: 0; }
   }
 </style>

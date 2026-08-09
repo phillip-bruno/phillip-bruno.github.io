@@ -4,52 +4,64 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const postModules = import.meta.glob('./*.md', { eager: true });
 const posts = Object.values(postModules) as any[];
 const sorted = posts
-  .filter(p => !p.frontmatter.pin)
-  .sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+  .filter(post => !post.frontmatter.pin)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+  );
 ---
-<BaseLayout title="Blog">
+<BaseLayout title="Blog" description="Writing on data engineering, requirements, and the occasional shower thought — Phillip Bruno.">
+  <p class="eyebrow">Writing</p>
   <h1>Blog</h1>
-  <p class="subtitle">Shower thoughts, technical ramblings, and the occasional sassy observation.</p>
+  <p class="intro">Shower thoughts, technical ramblings, and the occasional sassy observation.</p>
 
-  <ul class="post-list">
+  <ol class="posts">
     {sorted.map(post => {
       const { title, date, tags = [], categories = [] } = post.frontmatter;
-      const formattedDate = new Date(date).toLocaleDateString('en-CA', {
-        year: 'numeric', month: 'short', day: 'numeric'
+      const parsed = new Date(date);
+      const formatted = parsed.toLocaleDateString('en-CA', {
+        year: 'numeric', month: 'short', day: '2-digit',
       });
       return (
-        <li class="post-card">
-          <div class="post-meta">
-            <time>{formattedDate}</time>
-            {categories.length > 0 && <span class="cat">{categories[0]}</span>}
-          </div>
-          <a href={post.url} class="post-title">{title}</a>
-          <div class="tags">
-            {tags.map((tag: string) => <span class="tag">#{tag}</span>)}
+        <li class="post">
+          <time class="date field" datetime={parsed.toISOString().slice(0, 10)}>{formatted}</time>
+          <div class="body">
+            <h2><a href={post.url}>{title}</a></h2>
+            <p class="meta">
+              {categories.length > 0 && <span class="cat field">{categories[0]}</span>}
+              {tags.map((tag: string) => <span class="tag">{tag}</span>)}
+            </p>
           </div>
         </li>
       );
     })}
-  </ul>
+  </ol>
 </BaseLayout>
 
 <style>
-  h1 { margin-bottom: 0.25rem; }
-  .subtitle { color: var(--text-muted); margin-bottom: 2.5rem; }
-  .post-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.5rem; }
-  .post-card {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    transition: border-color 0.2s, box-shadow 0.2s;
+  .intro { color: var(--slate); margin: 0 0 3rem; max-width: 52ch; }
+
+  .posts { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule-strong); }
+
+  .post {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 0 1.5rem;
+    padding: 1.4rem 0;
+    border-bottom: 1px solid var(--rule);
   }
-  .post-card:hover { border-color: var(--accent); box-shadow: 0 0 18px rgba(255, 45, 120, 0.15); }
-  .post-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.4rem; display: flex; gap: 0.75rem; }
-  .cat { color: var(--accent); }
-  .post-title { font-size: 1.1rem; font-weight: 600; color: var(--text); }
-  .post-title:hover { color: var(--accent); text-decoration: none; }
-  .tags { margin-top: 0.6rem; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .date { padding-top: 0.4rem; white-space: nowrap; }
+  .body { min-width: 0; }
+
+  h2 { font-size: var(--step-1); margin: 0 0 0.4rem; }
+  h2 a { color: var(--ink); text-decoration: none; }
+  h2 a:hover { color: var(--signal); }
+
+  .meta { margin: 0; display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; }
+  .cat { color: var(--signal); }
+
+  @media (max-width: 40rem) {
+    .post { grid-template-columns: 1fr; gap: 0.35rem; }
+    .date { padding-top: 0; }
+  }
 </style>

@@ -1,81 +1,79 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const certificates = [
+  { date: 'Jun 2024', title: 'AWS Certified Cloud Practitioner', issuer: 'Amazon', url: 'https://www.credly.com/badges/cd3dd32d-6f51-4495-96b6-a7414adb323a?source=linked_in_profile' },
+  { date: 'Dec 2021', title: 'AWS Partner: Accreditation (Business)', issuer: 'Amazon', url: 'https://www.credly.com/badges/11f91ece-ac74-4519-a5b5-c97e4dec3b35?source=linked_in_profile' },
+  { date: 'Aug 2021', title: 'AWS Certified Database — Specialty', issuer: 'LinkedIn', url: 'https://www.linkedin.com/in/phillip-b-39b3884a/details/certifications/' },
+  { date: 'Sep 2019', title: 'Microsoft: Querying with Transact-SQL', issuer: 'edX', url: 'https://courses.edx.org/certificates/84baf226f34e44129ad7ba971dc7eba1' },
+  { date: 'Mar 2019', title: 'Project Management Fundamentals', issuer: 'University of Waterloo', url: 'https://pd.uwaterloo.ca/OnlineCourse.aspx?courseCatalogID=dee366d9-1605-42b0-bee8-3a9cf6c826aa' },
+];
 ---
-<BaseLayout title="Education & Certificates">
-  <h1>Education &amp; Certificates</h1>
+<BaseLayout title="Education" description="Education and professional certifications — Phillip Bruno.">
+  <p class="eyebrow">Credentials</p>
+  <h1>Education</h1>
 
-  <section>
-    <h2>Education</h2>
-    <hr />
-    <h3>University of Toronto</h3>
-    <ul>
-      <li><a href="https://www.artsci.utoronto.ca/" target="_blank" rel="noopener">Honours Bachelor of Arts</a>
-        <ul>
-          <li>Geographic Information Systems</li>
-          <li>Environment and Geography</li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Certification Highlights</h2>
-    <hr />
-    <div class="cert-list">
-      <div class="cert">
-        <span class="cert-date">Jun 2024</span>
-        <div>
-          <strong>AWS Certified Cloud Practitioner</strong><br />
-          <a href="https://www.credly.com/badges/cd3dd32d-6f51-4495-96b6-a7414adb323a?source=linked_in_profile" target="_blank" rel="noopener">Amazon &rarr;</a>
-        </div>
-      </div>
-      <div class="cert">
-        <span class="cert-date">Dec 2021</span>
-        <div>
-          <strong>AWS Partner: Accreditation (Business)</strong><br />
-          <a href="https://www.credly.com/badges/11f91ece-ac74-4519-a5b5-c97e4dec3b35?source=linked_in_profile" target="_blank" rel="noopener">Amazon &rarr;</a>
-        </div>
-      </div>
-      <div class="cert">
-        <span class="cert-date">Aug 2021</span>
-        <div>
-          <strong>AWS Certified Database &ndash; Specialty</strong><br />
-          <a href="https://www.linkedin.com/in/phillip-b-39b3884a/details/certifications/" target="_blank" rel="noopener">LinkedIn &rarr;</a>
-        </div>
-      </div>
-      <div class="cert">
-        <span class="cert-date">Sep 2019</span>
-        <div>
-          <strong>Microsoft: Querying with Transact-SQL</strong><br />
-          <a href="https://courses.edx.org/certificates/84baf226f34e44129ad7ba971dc7eba1" target="_blank" rel="noopener">edX &rarr;</a>
-        </div>
-      </div>
-      <div class="cert">
-        <span class="cert-date">Mar 2019</span>
-        <div>
-          <strong>Project Management Fundamentals</strong><br />
-          <a href="https://pd.uwaterloo.ca/OnlineCourse.aspx?courseCatalogID=dee366d9-1605-42b0-bee8-3a9cf6c826aa" target="_blank" rel="noopener">University of Waterloo &rarr;</a>
-        </div>
+  <section class="block">
+    <h2>Degree</h2>
+    <div class="entry">
+      <span class="date field">U of T</span>
+      <div class="body">
+        <h3>Honours Bachelor of Arts</h3>
+        <p class="org field">
+          <a href="https://www.artsci.utoronto.ca/" target="_blank" rel="noopener">Faculty of Arts &amp; Science</a>
+        </p>
+        <p class="note">Geographic Information Systems · Environment and Geography</p>
       </div>
     </div>
+  </section>
+
+  <section class="block">
+    <h2>Certifications</h2>
+    <ol class="entries">
+      {certificates.map(cert => (
+        <li class="entry">
+          <span class="date field">{cert.date}</span>
+          <div class="body">
+            <h3>{cert.title}</h3>
+            <p class="org field">
+              <a href={cert.url} target="_blank" rel="noopener">{cert.issuer} &rarr;</a>
+            </p>
+          </div>
+        </li>
+      ))}
+    </ol>
   </section>
 </BaseLayout>
 
 <style>
-  h2 { margin-top: 2rem; }
-  .cert-list { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
-  .cert {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    transition: border-color 0.2s, box-shadow 0.2s;
+  .block { margin-bottom: 3.5rem; }
+  h2 {
+    font-size: var(--step-2);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule-strong);
+    margin-bottom: 0;
   }
-  .cert:hover { border-color: var(--accent); box-shadow: 0 0 18px rgba(255, 45, 120, 0.15); }
-  .cert-date { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; padding-top: 2px; min-width: 60px; }
+
+  .entries { list-style: none; margin: 0; padding: 0; }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 0 1.5rem;
+    padding: 1.4rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .date { padding-top: 0.3rem; white-space: nowrap; }
+  .body { min-width: 0; }
+
+  h3 { font-size: var(--step-1); margin: 0 0 0.2rem; }
+  .org { margin: 0; }
+  .org a { text-decoration: none; }
+  .org a:hover { text-decoration: underline; }
+  .note { margin: 0.4rem 0 0; color: var(--slate); }
+
+  @media (max-width: 40rem) {
+    .entry { grid-template-columns: 1fr; gap: 0.35rem; }
+    .date { padding-top: 0; }
+  }
 </style>
