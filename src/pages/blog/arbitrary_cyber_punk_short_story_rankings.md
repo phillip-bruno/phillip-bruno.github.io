@@ -14,14 +14,23 @@ Anyways, I'll be periodically updating this blog post with my rankings of storie
 
 #
 ## Category: <ins>Self</ins>
-### *Reading In Progress*
+### *In Progress*
 1. [The Girl Who Was Plugged In by James Tiptree Jr.](https://en.wikipedia.org/wiki/The_Girl_Who_Was_Plugged_In)
-2. [An Old-Fashioned Story bu Phillip Mann](https://www.librarything.com/work/11594068)
-3. [The World As We Know It by George Alec Effinger](https://www.librarything.com/work/12273042)
-4. [Lobsters by Charles Stross](https://www.goodreads.com/book/show/17872.Lobsters)
-5. [Pretty Boy Crossover by Pat Cadigan](https://www.librarything.com/work/3037539)
-6. [Wolves of the Plateau by John Shirley](https://www.jstor.org/stable/20134167)
-6. [Surfing The Khumbu by Richard Kadrey](https://bookmate.com/books/PfYE1Hfz)
+2. [An Old-Fashioned Story by Phillip Mann](https://www.librarything.com/work/11594068)
+3. [Four Tons Too Late by K.C. Alexander](https://firesidefiction.com/issue11/chapter/four-tons-too-late/)
+3. [Better Than by Jean Rabe](https://www.isfdb.org/cgi-bin/ae.cgi?3859)
+4. [Memories of Moments, Bright as Falling Stars bu Cat Rambo](https://www.isfdb.org/cgi-bin/title.cgi?1021960)
+5. [The World As We Know It by George Alec Effinger](https://www.librarything.com/work/12273042)
+6. [Lobsters by Charles Stross](https://www.goodreads.com/book/show/17872.Lobsters)
+7. [The Girl Hero's Mirror Says He's Not The One by Justina Robson](https://www.librarything.com/work/3980316)
+7. [I Tell Thee All, I Can No More by Sunny Moraine](https://clarkesworldmagazine.com/audio_07_13a/)
+8. [Pretty Boy Crossover by Pat Cadigan](https://www.librarything.com/work/3037539)
+8. [Chosing Faces by Lavie Tidhar](https://www.goodreads.com/book/show/42073543-terminale-terra)
+9. [Wolves of the Plateau by John Shirley](https://www.jstor.org/stable/20134167)
+10. [The Completely Rechargeable Man by Karen Heuler](https://clarkesworldmagazine.com/heuler_12_08/)
+11. [Surfing The Khumbu by Richard Kadrey](https://bookmate.com/books/PfYE1Hfz)
+12. [Ghost Codes of Sparkletown (New Mix) by Jeff Noon](https://www.isfdb.org/cgi-bin/title.cgi?3270596)
+13. [File: The Death of Designer D. by Christian Kirtchev](https://www.isfdb.org/cgi-bin/title.cgi?3270595)
 
 ## Category: <ins>Society</ins>
 ## Category: <ins>Culture</ins>
