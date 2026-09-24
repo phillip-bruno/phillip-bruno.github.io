@@ -13,28 +13,34 @@ The book itself has a good introduction, which has the editors POV on what defin
 Anyways, I'll be periodically updating this blog post with my rankings of stories, following Shurin's categorization in the book. Once I'm done I'll try to pick an overall 'winner' and justify myself with whatever subjective reasoning I have at the time.
 
 #
-## Category: <ins>Self</ins>
-### *In Progress*
+## 1. *Category*: Self
+### 1.1. *In Progress*
 1. [The Girl Who Was Plugged In by James Tiptree Jr.](https://en.wikipedia.org/wiki/The_Girl_Who_Was_Plugged_In)
 2. [An Old-Fashioned Story by Phillip Mann](https://www.librarything.com/work/11594068)
 3. [Four Tons Too Late by K.C. Alexander](https://firesidefiction.com/issue11/chapter/four-tons-too-late/)
-3. [Better Than by Jean Rabe](https://www.isfdb.org/cgi-bin/ae.cgi?3859)
-4. [Memories of Moments, Bright as Falling Stars bu Cat Rambo](https://www.isfdb.org/cgi-bin/title.cgi?1021960)
-5. [The World As We Know It by George Alec Effinger](https://www.librarything.com/work/12273042)
-6. [Lobsters by Charles Stross](https://www.goodreads.com/book/show/17872.Lobsters)
-7. [The Girl Hero's Mirror Says He's Not The One by Justina Robson](https://www.librarything.com/work/3980316)
-7. [I Tell Thee All, I Can No More by Sunny Moraine](https://clarkesworldmagazine.com/audio_07_13a/)
-8. [Pretty Boy Crossover by Pat Cadigan](https://www.librarything.com/work/3037539)
-8. [Chosing Faces by Lavie Tidhar](https://www.goodreads.com/book/show/42073543-terminale-terra)
-9. [Wolves of the Plateau by John Shirley](https://www.jstor.org/stable/20134167)
-10. [The Completely Rechargeable Man by Karen Heuler](https://clarkesworldmagazine.com/heuler_12_08/)
-11. [Surfing The Khumbu by Richard Kadrey](https://bookmate.com/books/PfYE1Hfz)
-12. [Ghost Codes of Sparkletown (New Mix) by Jeff Noon](https://www.isfdb.org/cgi-bin/title.cgi?3270596)
-13. [File: The Death of Designer D. by Christian Kirtchev](https://www.isfdb.org/cgi-bin/title.cgi?3270595)
+4. [Better Than by Jean Rabe](https://www.isfdb.org/cgi-bin/ae.cgi?3859)
+5. [Reallife 3.0 by Jean-Marc Ligny](https://www.isfdb.org/cgi-bin/title.cgi?3283463)
+6. [A Life of its Own by Aleš Kot](https://www.goodreads.com/book/show/52409772-a-life-of-its-own)
+7. [The Real You™ by Molly Tanzer](https://www.lightspeedmagazine.com/fiction/the-real-you/)
+8. [Memories of Moments, Bright as Falling Stars by Cat Rambo](https://www.isfdb.org/cgi-bin/title.cgi?1021960)
+9. [The World As We Know It by George Alec Effinger](https://www.librarything.com/work/12273042)
+10. [Lobsters by Charles Stross](https://www.goodreads.com/book/show/17872.Lobsters)
+11. [The Infinite Eye by J.P. Smythe](https://openpublishing.psu.edu/utopia/bibcite/reference/21164)
+12. [The Girl Hero's Mirror Says He's Not The One by Justina Robson](https://www.librarything.com/work/3980316)
+13. [I Tell Thee All, I Can No More by Sunny Moraine](https://clarkesworldmagazine.com/audio_07_13a/)
+14. [Pretty Boy Crossover by Pat Cadigan](https://www.librarything.com/work/3037539)
+15. [Chosing Faces by Lavie Tidhar](https://www.goodreads.com/book/show/42073543-terminale-terra)
+16. [Wolves of the Plateau by John Shirley](https://www.jstor.org/stable/20134167)
+17. [Patterns of a Murmuration, In Billions of Data Points by JY Yang](https://clarkesworldmagazine.com/yang_09_14/)
+18. [The Completely Rechargeable Man by Karen Heuler](https://clarkesworldmagazine.com/heuler_12_08/)
+19. [Surfing The Khumbu by Richard Kadrey](https://bookmate.com/books/PfYE1Hfz)
+20. [Ghost Codes of Sparkletown (New Mix) by Jeff Noon](https://www.isfdb.org/cgi-bin/title.cgi?3270596)
+21. [wysiomg by Alvaro Zinos-Amaro](https://www.isfdb.org/cgi-bin/title.cgi?2086965)
+22. [File: The Death of Designer D. by Christian Kirtchev](https://www.isfdb.org/cgi-bin/title.cgi?3270595)
 
-## Category: <ins>Society</ins>
-## Category: <ins>Culture</ins>
-## Category: <ins>Challenge</ins>
-## Category: <ins>Post Cyberpunk</ins>
+## 2. *Category*: Society
+## 3. *Category*: Culture
+## 4. *Category*: Challenge
+## 5. *Category*: Post Cyberpunk
 
 # Overall Favourite
