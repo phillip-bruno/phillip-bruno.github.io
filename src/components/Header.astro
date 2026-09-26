@@ -14,13 +14,16 @@ const isCurrent = (href: string) =>
 ---
 <header class="rail">
   <div class="bar">
-    <a href="/" class="identity">
-      <img src="/assets/img/portrait.jpg" alt="" width="53" height="40" class="portrait" />
-      <span class="names">
+    <div class="identity">
+      <button type="button" class="zoom" aria-haspopup="dialog" aria-controls="portrait-zoom">
+        <span class="sr-only">Enlarge photo</span>
+        <img src="/assets/img/portrait.jpg" alt="" width="53" height="40" class="portrait" />
+      </button>
+      <a href="/" class="names">
         <span class="name">Phillip Bruno</span>
         <span class="role field">Lead Data Engineer</span>
-      </span>
-    </a>
+      </a>
+    </div>
 
     <button type="button" class="toggle" aria-expanded="false" aria-controls="rail-nav">
       <span class="sr-only">Menu</span>
@@ -42,6 +45,13 @@ const isCurrent = (href: string) =>
   </nav>
 </header>
 
+<dialog id="portrait-zoom" class="lightbox" aria-label="Photo">
+  <img src="/assets/img/portrait-large.jpg" alt="Still in the snow at the Sendai Miyagikyo Distillery." width="1600" height="1212" loading="lazy" />
+  <form method="dialog">
+    <button class="close" aria-label="Close">&times;</button>
+  </form>
+</dialog>
+
 <script>
   const toggle = document.querySelector<HTMLButtonElement>('.toggle');
   const nav = document.getElementById('rail-nav');
@@ -49,6 +59,14 @@ const isCurrent = (href: string) =>
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
     nav?.classList.toggle('open', !open);
+  });
+
+  const zoom = document.querySelector<HTMLButtonElement>('.zoom');
+  const lightbox = document.getElementById('portrait-zoom') as HTMLDialogElement | null;
+  zoom?.addEventListener('click', () => lightbox?.showModal());
+  // Clicking the backdrop (outside the image) closes it.
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) lightbox.close();
   });
 </script>
 
@@ -70,15 +88,76 @@ const isCurrent = (href: string) =>
     display: flex;
     align-items: center;
     gap: 0.7rem;
+  }
+  .zoom {
+    display: block;
+    flex-shrink: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 6px;
+    cursor: zoom-in;
+  }
+  .zoom:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  .portrait {
+    display: block;
+    border-radius: 6px;
+    border: 1px solid var(--rule-strong);
+    transition: transform 0.15s ease;
+  }
+  .zoom:hover .portrait { transform: scale(1.05); }
+  .names {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
     text-decoration: none;
     color: var(--ink);
   }
-  .portrait {
-    border-radius: 6px;
-    border: 1px solid var(--rule-strong);
-    flex-shrink: 0;
+
+  .lightbox {
+    padding: 0;
+    border: none;
+    background: none;
+    max-width: min(92vw, 1600px);
+    max-height: 92vh;
+    overflow: visible;
   }
-  .names { display: flex; flex-direction: column; line-height: 1.25; }
+  .lightbox::backdrop {
+    background: rgb(0 0 0 / 0.8);
+  }
+  .lightbox[open] { animation: zoom-in 0.18s ease-out; }
+  .lightbox img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: 6px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 0.5);
+  }
+  .close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 50%;
+    background: rgb(0 0 0 / 0.55);
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .close:hover { background: rgb(0 0 0 / 0.8); }
+  @keyframes zoom-in {
+    from { opacity: 0; transform: scale(0.96); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lightbox[open] { animation: none; }
+    .portrait { transition: none; }
+  }
   .name {
     font-family: var(--font-display);
     font-weight: 600;
