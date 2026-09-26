@@ -21,3 +21,6 @@ pnpm-debug.log*
 
 # Astro
 .astro/
+
+# Latex spellchecker file
+.vscode/ltex.dictionary.en-US.txt
