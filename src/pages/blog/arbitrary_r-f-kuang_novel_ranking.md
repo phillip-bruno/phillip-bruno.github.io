@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: My Personal Ranking of R.F. Kuang Novels
 date: 2026-04-18 23:58:00 +0900
-categories: [books, fiction]
+categories: [Books, Fiction]
 tags: [r-f-kuang, books, fantasy, fiction]
 ---
 

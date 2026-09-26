@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Regionalized Consumerism and Coding
 date: 2026-02-05 23:58:00 +0900
-categories: [costs, ai]
+categories: [Costs, AI]
 tags: [travelling, regionalization, price-gouging, ai]
 ---
 

@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: My Personal Ranking of the Short Stories in The Big Book of Cyberpunk
 date: 2026-09-13 13:09:00 +0900
-categories: [books, fiction]
+categories: [Books, Fiction]
 tags: [cyberpunk, books, fiction, jared_shurin, ranking]
 ---
 
