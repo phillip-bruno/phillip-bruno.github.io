@@ -16,7 +16,7 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const socialImage = new URL('/assets/img/favicons/profile.png', Astro.site);
+const socialImage = new URL('/assets/img/social.jpg', Astro.site);
 ---
 <!doctype html>
 <html lang="en">
@@ -36,7 +36,9 @@ const socialImage = new URL('/assets/img/favicons/profile.png', Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={socialImage} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <script data-goatcounter="https://phillip-bruno.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </head>
