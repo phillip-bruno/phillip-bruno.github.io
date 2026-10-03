@@ -42,6 +42,9 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 
 ## 2. *Category*: Society
 *In Progress*
+1. [Cyberpunk by Bruce Bethke](https://www.infinityplus.co.uk/stories/cpunk.htm)
+2. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+
 ## 3. *Category*: Culture
 ## 4. *Category*: Challenge
 ## 5. *Category*: Post Cyberpunk
