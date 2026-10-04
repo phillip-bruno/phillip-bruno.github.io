@@ -3,16 +3,20 @@
 @import '@fontsource-variable/martian-mono/wdth.css';
 
 :root {
+  /* Follows the OS until the visitor picks a theme; Header.astro sets data-theme. */
   color-scheme: light dark;
 
-  --paper: #edefec;
-  --paper-raised: #f6f7f5;
-  --ink: #14171a;
-  --slate: #5b6570;
-  --rule: #d3d7d1;
-  --rule-strong: #b8bdb5;
-  --signal: #2e3fa8;
-  --signal-bright: #4356d6;
+  /* light-dark(light value, dark value) */
+  --paper: light-dark(#f6efe6, #093230);
+  --paper-raised: light-dark(#fbf7f1, #0f3b38);
+  --ink: light-dark(#1d1210, #f2e8dc);
+  --slate: light-dark(#6b5d57, #a8b5b0);
+  --rule: light-dark(#e2d6c8, #1a4542);
+  --rule-strong: light-dark(#c9b8a6, #2a5a56);
+  --signal: light-dark(#870606, #fca248);
+  --accent: light-dark(#093230, #49b8a4);
+  /* Fill only: too light to carry text on paper. */
+  --highlight: #fca248;
 
   --font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Newsreader Variable', Georgia, 'Times New Roman', serif;
@@ -32,18 +36,8 @@
   --gap: clamp(1.5rem, 1rem + 2vw, 3.5rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #141719;
-    --paper-raised: #1b1f22;
-    --ink: #e6e9e4;
-    --slate: #949d9a;
-    --rule: #2b3033;
-    --rule-strong: #414749;
-    --signal: #8fa2f5;
-    --signal-bright: #adbcff;
-  }
-}
+:root[data-theme='light'] { color-scheme: light; }
+:root[data-theme='dark'] { color-scheme: dark; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -76,6 +70,8 @@ h2 { font-size: var(--step-2); }
 h3 { font-size: var(--step-1); }
 
 p { text-wrap: pretty; }
+
+::selection { background: var(--highlight); color: #1d1210; }
 
 a {
   color: var(--signal);

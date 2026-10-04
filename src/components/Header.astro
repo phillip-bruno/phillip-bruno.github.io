@@ -25,10 +25,18 @@ const isCurrent = (href: string) =>
       </a>
     </div>
 
-    <button type="button" class="toggle" aria-expanded="false" aria-controls="rail-nav">
-      <span class="sr-only">Menu</span>
-      <span class="bars" aria-hidden="true"></span>
-    </button>
+    <div class="controls">
+      <button type="button" class="theme" aria-label="Switch colour theme">
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+          <circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5" />
+          <path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor" />
+        </svg>
+      </button>
+      <button type="button" class="toggle" aria-expanded="false" aria-controls="rail-nav">
+        <span class="sr-only">Menu</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+    </div>
   </div>
 
   <nav id="rail-nav" class="nav" aria-label="Main">
@@ -59,6 +67,23 @@ const isCurrent = (href: string) =>
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
     nav?.classList.toggle('open', !open);
+  });
+
+  const root = document.documentElement;
+  const theme = document.querySelector<HTMLButtonElement>('.theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+  const currentTheme = () => root.dataset.theme ?? (prefersDark.matches ? 'dark' : 'light');
+  const labelTheme = () => {
+    const next = currentTheme() === 'dark' ? 'light' : 'dark';
+    theme?.setAttribute('aria-label', `Switch to ${next} theme`);
+  };
+  labelTheme();
+  prefersDark.addEventListener('change', labelTheme);
+  theme?.addEventListener('click', () => {
+    const next = currentTheme() === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('theme', next); } catch {}
+    labelTheme();
   });
 
   const zoom = document.querySelector<HTMLButtonElement>('.zoom');
@@ -123,7 +148,7 @@ const isCurrent = (href: string) =>
     overflow: visible;
   }
   .lightbox::backdrop {
-    background: rgb(0 0 0 / 0.8);
+    background: rgb(29 18 16 / 0.85);
   }
   .lightbox[open] { animation: zoom-in 0.18s ease-out; }
   .lightbox img {
@@ -143,20 +168,20 @@ const isCurrent = (href: string) =>
     height: 2.25rem;
     border: none;
     border-radius: 50%;
-    background: rgb(0 0 0 / 0.55);
+    background: rgb(29 18 16 / 0.55);
     color: #fff;
     font-size: 1.4rem;
     line-height: 1;
     cursor: pointer;
   }
-  .close:hover { background: rgb(0 0 0 / 0.8); }
+  .close:hover { background: rgb(29 18 16 / 0.85); }
   @keyframes zoom-in {
     from { opacity: 0; transform: scale(0.96); }
     to { opacity: 1; transform: scale(1); }
   }
   @media (prefers-reduced-motion: reduce) {
     .lightbox[open] { animation: none; }
-    .portrait { transition: none; }
+    .portrait, .theme svg { transition: none; }
   }
   .name {
     font-family: var(--font-display);
@@ -166,7 +191,9 @@ const isCurrent = (href: string) =>
   }
   .role { font-size: 0.72rem; }
 
-  .toggle {
+  .controls { display: flex; gap: 0.5rem; }
+
+  .theme, .toggle {
     background: none;
     border: 1px solid var(--rule-strong);
     border-radius: 3px;
@@ -174,6 +201,11 @@ const isCurrent = (href: string) =>
     cursor: pointer;
     color: var(--ink);
   }
+  .theme { display: grid; place-items: center; padding: 0.45rem; }
+  .theme:hover { border-color: var(--signal); color: var(--signal); }
+  .theme svg { display: block; transition: transform 0.3s ease; }
+  :global([data-theme='dark']) .theme svg { transform: rotate(180deg); }
+
   .bars, .bars::before, .bars::after {
     display: block;
     width: 16px;
@@ -226,9 +258,12 @@ const isCurrent = (href: string) =>
       margin-right: calc(var(--gap) * -0.5);
       padding-right: calc(var(--gap) * 0.5);
     }
-    .bar { display: block; padding-bottom: 2rem; }
-    .identity { margin-bottom: 0; }
+    /* Unwrap the bar so the theme button can sit at the foot of the rail. */
+    .rail { display: flex; flex-direction: column; }
+    .bar, .controls { display: contents; }
+    .identity { margin-bottom: 2rem; }
     .toggle { display: none; }
     .nav { display: block; padding-bottom: 0; }
+    .theme { order: 1; align-self: flex-start; margin: 1.25rem 0 0 0.85rem; }
   }
 </style>
