@@ -23,6 +23,13 @@ const socialImage = new URL('/assets/img/social.jpg', Astro.site);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Apply a saved theme before first paint so there's no flash of the wrong one. -->
+    <script is:inline>
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
     <title>{title} | Phillip Bruno</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
