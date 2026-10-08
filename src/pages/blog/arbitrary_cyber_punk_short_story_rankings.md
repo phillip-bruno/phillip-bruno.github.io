@@ -6,7 +6,7 @@ categories: [Books, Fiction]
 tags: [cyberpunk, books, fiction, jared_shurin, ranking]
 ---
 
-Like many nerds, I've read a lot of classic and modern sci-fi. One afternoon earlier this year, 'surfing' on HackerNews, I stumbled across a reference to [The Big Book of Cyberpunk](https://www.penguinrandomhouse.com/books/700576/the-big-book-of-cyberpunk-by-jared-shurin/), which is a curated collection of short stories that touch on the genre of cyberpunk literature. Quite often I avoid these types of books, since typically they occupy quite a lot of shelf space etc. and can often get thematically tiring after a while. Since in general this year I've been reading more comfort books (and less challenging writing overall), I decided to buck the trend and pick something I wouldn't have normally gone for. 
+Like many nerds, I've read a lot of classic and modern sci-fi. One afternoon earlier this year, 'surfing' on HackerNews, I stumbled across a reference to [The Big Book of Cyberpunk](https://www.penguinrandomhouse.com/books/700576/the-big-book-of-cyberpunk-by-jared-shurin/), which is a [curated](https://www.isfdb.org/cgi-bin/pl.cgi?963775) collection of short stories that touch on the genre of cyberpunk literature. Quite often I avoid these types of books, since typically they occupy quite a lot of shelf space etc. and can often get thematically tiring after a while. Since in general this year I've been reading more comfort books (and less challenging writing overall), I decided to buck the trend and pick something I wouldn't have normally gone for. 
 
 The book itself has a good introduction, which has the editors POV on what defines the genre and what makes it so difficult (e.g. mixing of visual themes with narrative ones) and then uses that definition to roughly categorize the short stories. What is cools is that the short stories are written across many decades, and so far the slang and tech language used by the sci-fi writers of the time reflect that. 
 
@@ -43,7 +43,16 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 ## 2. *Category*: Society
 *In Progress*
 1. [Cyberpunk by Bruce Bethke](https://www.infinityplus.co.uk/stories/cpunk.htm)
-2. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+2. [Arachne by Lisa Mason](https://www.goodreads.com/book/show/1173049.Arachne)
+3. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
+4. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
+5. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+6. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
+7. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
+8. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
+9. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
+10. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
+
 
 ## 3. *Category*: Culture
 ## 4. *Category*: Challenge
