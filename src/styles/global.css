@@ -1,5 +1,11 @@
-@import '@fontsource-variable/bricolage-grotesque';
-@import '@fontsource-variable/newsreader';
+/* Goldman ships in 400 and 700 only; Kanit weights match what the CSS and Markdown actually use. */
+@import '@fontsource/goldman/400.css';
+@import '@fontsource/goldman/700.css';
+@import '@fontsource/kanit/300.css';
+@import '@fontsource/kanit/300-italic.css';
+@import '@fontsource/kanit/500.css';
+@import '@fontsource/kanit/700.css';
+@import '@fontsource/kanit/700-italic.css';
 @import '@fontsource-variable/martian-mono/wdth.css';
 
 :root {
@@ -18,8 +24,8 @@
   /* Fill only: too light to carry text on paper. */
   --highlight: #fca248;
 
-  --font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
-  --font-body: 'Newsreader Variable', Georgia, 'Times New Roman', serif;
+  --font-display: 'Goldman', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Kanit', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'Martian Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
   /* Martian ships at 112.5% by default; 100% keeps its character without eating the grid. */
   --mono-width: 100%;
@@ -51,6 +57,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
+  font-weight: 300;
   font-size: var(--step-0);
   line-height: 1.65;
   font-synthesis-weight: none;
@@ -58,9 +65,9 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.12;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   text-wrap: balance;
   margin: 0 0 0.6rem;
 }
@@ -70,6 +77,9 @@ h2 { font-size: var(--step-2); }
 h3 { font-size: var(--step-1); }
 
 p { text-wrap: pretty; }
+
+/* `bolder` from a 300 body only reaches 400; pin bold so it still reads as bold. */
+strong, b { font-weight: 700; }
 
 ::selection { background: var(--highlight); color: #1d1210; }
 
@@ -118,6 +128,7 @@ hr {
 
 .tag {
   font-family: var(--font-mono);
+  font-weight: 400;
   font-size: var(--step--1);
   font-stretch: var(--mono-width);
   color: var(--slate);
@@ -128,6 +139,7 @@ hr {
 
 code {
   font-family: var(--font-mono);
+  font-weight: 400;
   font-size: 0.88em;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
@@ -137,6 +149,7 @@ code {
 
 pre {
   font-family: var(--font-mono);
+  font-weight: 400;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
   border-radius: 4px;
