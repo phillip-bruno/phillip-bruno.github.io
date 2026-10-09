@@ -42,6 +42,7 @@ const certificates = [
         </li>
       ))}
     </ol>
+    <p class="more field"><a href="/learning">All courses and certificates &rarr;</a></p>
   </section>
 </BaseLayout>
 
@@ -71,6 +72,10 @@ const certificates = [
   .org a { text-decoration: none; }
   .org a:hover { text-decoration: underline; }
   .note { margin: 0.4rem 0 0; color: var(--slate); }
+
+  .more { margin: 1.25rem 0 0; }
+  .more a { text-decoration: none; }
+  .more a:hover { text-decoration: underline; }
 
   @media (max-width: 40rem) {
     .entry { grid-template-columns: 1fr; gap: 0.35rem; }
