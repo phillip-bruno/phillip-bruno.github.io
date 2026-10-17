@@ -12,7 +12,7 @@ I appreciate reading as a way to unwind, and have had that habit since I was a k
 For any who don't know, in short the Decameron is a novel that takes place across ten days in the Florentine countryside. Each of those ten days has ten different short stories, some more grounded in reality then others. Here are my favourites:
 
 1) Day 1: [A Monk, Having Fallen Into a Sin Deserving of Very Grievous Punishment, Adroitly Reproaching the Same Fault to His Abbot, Quitteth Himself of the Penalty](https://en.wikipedia.org/wiki/Summary_of_Decameron_tales#Fourth_tale_(I,_4)). Nothing more hilarious than a beautiful woman who can entice a monk and his abbot to break their vow of celibacy.
-2) Day 2:
+2) Day 2: [Bernabo of Genoa, Duped by Ambrogiuolo, Loseth His Good and Commandeth That His Innocent Wife Be Put to Death. She Escapeth and Serveth the Soldan in a Man’s Habit. Here She Lighteth Upon the Deceiver of Her Husband and Bringeth the Latter to Alexand](https://en.wikipedia.org/wiki/Summary_of_Decameron_tales#Ninth_tale_(II,_9)). A few of the other stories on this day had more interesting characters but the punishment Ambrogiuolo was given at the end was gruesomely memorable.
 3) Day 3:
 4) Day 4:
 5) Day 5:

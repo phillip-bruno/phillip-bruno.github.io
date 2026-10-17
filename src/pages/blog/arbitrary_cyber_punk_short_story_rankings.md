@@ -44,14 +44,20 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 *In Progress*
 1. [Cyberpunk by Bruce Bethke](https://www.infinityplus.co.uk/stories/cpunk.htm)
 2. [Arachne by Lisa Mason](https://www.goodreads.com/book/show/1173049.Arachne)
-3. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
-4. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
-5. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
-6. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
-7. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
-8. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
-9. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
-10. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
+3. [0wnz0red by Cory Doctorow](https://craphound.com/stories/2002/08/06/0wnz0red/)
+4. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
+5. [The Great Simoleon Caper by Paul J. Mcauley](https://en.wikipedia.org/wiki/The_Great_Simoleon_Caper)
+6. [Time of Day by Nick Mamatas](https://strangehorizons.com/wordpress/fiction/time-of-day/)
+7. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
+8. [P by Yun Ko-eun](https://www.isfdb.org/cgi-bin/title.cgi?3283900)
+9. [Branded by Lauren Beukes](https://open.uct.ac.za/items/19424cc6-df32-4869-b1ad-1bd14fc190c1)
+10. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+11. [Immolation by Jeffrey Thomas](https://www.isfdb.org/cgi-bin/title.cgi?783805)
+12. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
+13. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
+14. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
+15. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
+16. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
 
 
 ## 3. *Category*: Culture
