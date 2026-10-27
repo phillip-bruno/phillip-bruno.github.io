@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title: My Personal Ranking of the Short Stories in The Big Book of Cyberpunk
+title: Short Story Ranking of The Big Book of Cyberpunk
 date: 2026-09-13 13:09:00 +0900
 categories: [Books, Fiction]
-tags: [cyberpunk, books, fiction, jared_shurin, ranking]
+tags: [cyberpunk, books, fiction, jared_shurin, ranking, in_progress]
 ---
 
 Like many nerds, I've read a lot of classic and modern sci-fi. One afternoon earlier this year, 'surfing' on HackerNews, I stumbled across a reference to [The Big Book of Cyberpunk](https://www.penguinrandomhouse.com/books/700576/the-big-book-of-cyberpunk-by-jared-shurin/), which is a [curated](https://www.isfdb.org/cgi-bin/pl.cgi?963775) collection of short stories that touch on the genre of cyberpunk literature. Quite often I avoid these types of books, since typically they occupy quite a lot of shelf space etc. and can often get thematically tiring after a while. Since in general this year I've been reading more comfort books (and less challenging writing overall), I decided to buck the trend and pick something I wouldn't have normally gone for. 
@@ -46,21 +46,25 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 2. [Cyberpunk by Bruce Bethke](https://www.infinityplus.co.uk/stories/cpunk.htm)
 3. [Arachne by Lisa Mason](https://www.goodreads.com/book/show/1173049.Arachne)
 4. [Keeping Up With Mr. Johnson by Steven S. Long](https://www.isfdb.org/cgi-bin/title.cgi?3283468)
-5. [0wnz0red by Cory Doctorow](https://craphound.com/stories/2002/08/06/0wnz0red/)
-6. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
-7. [Be Seeing You by Madeline Ashby](https://www.isfdb.org/cgi-bin/title.cgi?2011521)
-8. [The Great Simoleon Caper by Paul J. Mcauley](https://en.wikipedia.org/wiki/The_Great_Simoleon_Caper)
-9. [Time of Day by Nick Mamatas](https://strangehorizons.com/wordpress/fiction/time-of-day/)
-10. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
-11. [P by Yun Ko-eun](https://www.isfdb.org/cgi-bin/title.cgi?3283900)
-12. [Branded by Lauren Beukes](https://open.uct.ac.za/items/19424cc6-df32-4869-b1ad-1bd14fc190c1)
-13. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
-14. [Immolation by Jeffrey Thomas](https://www.isfdb.org/cgi-bin/title.cgi?783805)
-15. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
-16. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
-17. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
-18. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
-19. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
+5. [Thoughts and Prayers by Ken Liu](https://slate.com/technology/2019/01/thoughts-and-prayers-ken-liu-short-story.html)
+6. [0wnz0red by Cory Doctorow](https://craphound.com/stories/2002/08/06/0wnz0red/)
+7. [Flyover Country by Tim Maughan](https://www.vice.com/en/article/flyover-country/)
+8. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
+9. [Be Seeing You by Madeline Ashby](https://www.isfdb.org/cgi-bin/title.cgi?2011521)
+10. [The Great Simoleon Caper by Paul J. Mcauley](https://en.wikipedia.org/wiki/The_Great_Simoleon_Caper)
+11. [Time of Day by Nick Mamatas](https://strangehorizons.com/wordpress/fiction/time-of-day/)
+12. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
+13. [Darkout by E. Lily Yu](https://www.isfdb.org/cgi-bin/title.cgi?2086970)
+14. [P by Yun Ko-eun](https://www.isfdb.org/cgi-bin/title.cgi?3283900)
+15. [Branded by Lauren Beukes](https://open.uct.ac.za/items/19424cc6-df32-4869-b1ad-1bd14fc190c1)
+16. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+17. [Immolation by Jeffrey Thomas](https://www.isfdb.org/cgi-bin/title.cgi?783805)
+18. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
+19. [2045 Dystopia by Ryuko Azuma](https://www.isfdb.org/cgi-bin/title.cgi?3518203)
+20. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
+21. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
+22. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
+23. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
 
 
 ## 3. *Category*: Culture

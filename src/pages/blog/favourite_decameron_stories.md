@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title: Personal Favourite Stories in The Decameron
+title: Favourite Stories in The Decameron
 date: 2026-09-26 19:25:00 +0900
 categories: [Books, Fiction]
-tags: [renaissance, books, fiction, jared_shurin]
+tags: [renaissance, books, fiction, giovanni_boccaccio, in_progress]
 ---
 
 I appreciate reading as a way to unwind, and have had that habit since I was a kid, since my parents always encouraged (*cough, cough... coerce*) me to read. Resultingly, as I've been going through [The Big Book of Cyberpunk](/blog/arbitrary_cyber_punk_short_story_rankings)

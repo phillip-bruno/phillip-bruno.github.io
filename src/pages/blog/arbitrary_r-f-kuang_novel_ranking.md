@@ -3,7 +3,7 @@ layout: ../../layouts/BlogPostLayout.astro
 title: My Personal Ranking of R.F. Kuang Novels
 date: 2026-04-18 23:58:00 +0900
 categories: [Books, Fiction]
-tags: [r-f-kuang, books, fantasy, fiction]
+tags: [r_f_kuang, books, fantasy, fiction]
 ---
 
 I love reading in my spare time, especially when a book grounds itself in my favourite genres while introducing fresh elements and perspectives. It is hard to put into words, but something about [R.F. Kuang's](https://en.wikipedia.org/wiki/R._F._Kuang) writing style sort of just works for me. In honour of finishing Katabasis, I decided to rank all the books of hers I have read, from my most to least favourite. I want to stress that I enjoyed all her work, some more than others however! Even though Katabasis sits at number six, it is not because I hated it, it's simply my least favourite overall in her lineup which I've enjoyed reading.
