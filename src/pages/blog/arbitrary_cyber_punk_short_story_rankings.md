@@ -41,7 +41,6 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 24. [File: The Death of Designer D. by Christian Kirtchev](https://www.isfdb.org/cgi-bin/title.cgi?3270595)
 
 ## 2. *Category*: Society
-*In Progress*
 1. [I Can Transform You by Maurice Broaddus](https://www.goodreads.com/book/show/18240831-i-can-transform-you)
 2. [Cyberpunk by Bruce Bethke](https://www.infinityplus.co.uk/stories/cpunk.htm)
 3. [Arachne by Lisa Mason](https://www.goodreads.com/book/show/1173049.Arachne)
@@ -51,24 +50,30 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 7. [Flyover Country by Tim Maughan](https://www.vice.com/en/article/flyover-country/)
 8. [Gene Wars by Paul J. Mcauley](https://www.lightspeedmagazine.com/fiction/gene-wars/)
 9. [Be Seeing You by Madeline Ashby](https://www.isfdb.org/cgi-bin/title.cgi?2011521)
-10. [The Great Simoleon Caper by Paul J. Mcauley](https://en.wikipedia.org/wiki/The_Great_Simoleon_Caper)
-11. [Somatosensory Cortex Dog Mess You up Big Time, You Sick Sack of S**t by Minister Faust](https://www.isfdb.org/cgi-bin/title.cgi?2907948)
-12. [Time of Day by Nick Mamatas](https://strangehorizons.com/wordpress/fiction/time-of-day/)
-13. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
-14. [Darkout by E. Lily Yu](https://www.isfdb.org/cgi-bin/title.cgi?2086970)
-15. [P by Yun Ko-eun](https://www.isfdb.org/cgi-bin/title.cgi?3283900)
-16. [Branded by Lauren Beukes](https://open.uct.ac.za/items/19424cc6-df32-4869-b1ad-1bd14fc190c1)
-17. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
-18. [Immolation by Jeffrey Thomas](https://www.isfdb.org/cgi-bin/title.cgi?783805)
-19. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
-20. [2045 Dystopia by Ryuko Azuma](https://www.isfdb.org/cgi-bin/title.cgi?3518203)
-21. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
-22. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
-23. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
-24. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
+10. [The Lifecycle of a Cyber Bar by Arthur Liu](https://future-sf.com/fiction/the-life-cycle-of-a-cyber-bar/)
+11. [The Great Simoleon Caper by Paul J. Mcauley](https://en.wikipedia.org/wiki/The_Great_Simoleon_Caper)
+12. [Somatosensory Cortex Dog Mess You up Big Time, You Sick Sack of S**t by Minister Faust](https://www.isfdb.org/cgi-bin/title.cgi?2907948)
+13. [Time of Day by Nick Mamatas](https://strangehorizons.com/wordpress/fiction/time-of-day/)
+14. [Britworld™ by James Lovegrove](https://www.isfdb.org/cgi-bin/title.cgi?46857)
+15. [Darkout by E. Lily Yu](https://www.isfdb.org/cgi-bin/title.cgi?2086970)
+16. [P by Yun Ko-eun](https://www.isfdb.org/cgi-bin/title.cgi?3283900)
+17. [Branded by Lauren Beukes](https://open.uct.ac.za/items/19424cc6-df32-4869-b1ad-1bd14fc190c1)
+18. [Time Considered as a Helix of Semiprecious Stones by Samuel R. Delaney](https://en.wikipedia.org/wiki/Time_Considered_as_a_Helix_of_Semi-Precious_Stones)
+19. [Immolation by Jeffrey Thomas](https://www.isfdb.org/cgi-bin/title.cgi?783805)
+20. [Rat by James Patrick Kelly](https://en.wikipedia.org/wiki/Rat_(short_story))
+21. [2045 Dystopia by Ryuko Azuma](https://www.isfdb.org/cgi-bin/title.cgi?3518203)
+22. [Axiomatic by Greg Egan](https://en.wikipedia.org/wiki/Axiomatic_(short_story))
+23. [Ripped Images, Rusted Dreams by Gerardo Horacio Porcayo](https://www.isfdb.org/cgi-bin/title.cgi?3283471)
+24. [Hostile Takeover by Craig Padawer](https://www.isfdb.org/cgi-bin/title.cgi?2039404)
+25. [Consumimur Igni by Harry Polkinhorn](https://www.isfdb.org/cgi-bin/title.cgi?3124609)
 
 
 ## 3. *Category*: Culture
+*In Progress*
+1. [With the Original Cast by Nancy Cress](https://nancykress.com/bibliography/)
+2. [Dogfight by William Gibson and Michael Swanwick](https://en.wikipedia.org/wiki/Dogfight_(short_story))
+3. [Coming Attraction by Fritz Leiber](https://www.gutenberg.org/ebooks/51082)
+
 ## 4. *Category*: Challenge
 ## 5. *Category*: Post Cyberpunk
 
