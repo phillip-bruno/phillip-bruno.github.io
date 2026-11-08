@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: Short Story Ranking of The Big Book of Cyberpunk
-date: 2026-09-13 13:09:00 +0900
+date: 2026-09-13 13:09:00 -0500
 categories: [Books, Fiction]
 tags: [cyberpunk, books, fiction, jared_shurin, ranking, in_progress]
 ---
