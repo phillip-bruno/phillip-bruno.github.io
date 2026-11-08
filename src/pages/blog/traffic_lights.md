@@ -3,7 +3,7 @@ layout: ../../layouts/BlogPostLayout.astro
 title: Can We Start Speed Running Traffic Lights Please?
 date: 2026-11-07 18:46:00 -0500
 categories: [Transit, Optimization]
-tags: [traffic, lights, waitic, transit]
+tags: [traffic, lights, waiting, transit]
 ---
 
 Warning that this is a rant....
