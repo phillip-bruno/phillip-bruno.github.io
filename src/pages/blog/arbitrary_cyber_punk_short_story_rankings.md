@@ -73,10 +73,11 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 1. [With the Original Cast by Nancy Cress](https://nancykress.com/bibliography/)
 2. [[Learning About] Machine Sex by Candas Jane Dorsey](https://www.isfdb.org/cgi-bin/title.cgi?642285)
 3. [Dogfight by William Gibson and Michael Swanwick](https://en.wikipedia.org/wiki/Dogfight_(short_story))
-4. [Glass Reptile Breakout by Russell Blackford](https://www.isfdb.org/cgi-bin/title.cgi?65675)
-5. [A Short Course in Art Appreciation by Paul Di Filippo](https://www.isfdb.org/cgi-bin/title.cgi?49251)
-6. [D.GO by Nicholas Royle](https://www.isfdb.org/cgi-bin/title.cgi?46676)
-7. [Coming Attraction by Fritz Leiber](https://www.gutenberg.org/ebooks/51082)
+4. [SQPR by Kim Newman](https://www.isfdb.org/cgi-bin/title.cgi?46865)
+5. [Glass Reptile Breakout by Russell Blackford](https://www.isfdb.org/cgi-bin/title.cgi?65675)
+6. [A Short Course in Art Appreciation by Paul Di Filippo](https://www.isfdb.org/cgi-bin/title.cgi?49251)
+7. [D.GO by Nicholas Royle](https://www.isfdb.org/cgi-bin/title.cgi?46676)
+8. [Coming Attraction by Fritz Leiber](https://www.gutenberg.org/ebooks/51082)
 
 ## 4. *Category*: Challenge
 ## 5. *Category*: Post Cyberpunk
