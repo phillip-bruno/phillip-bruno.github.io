@@ -70,14 +70,17 @@ Anyway, I'll be periodically updating this blog post with my rankings of stories
 
 ## 3. *Category*: Culture
 *In Progress*
-1. [With the Original Cast by Nancy Cress](https://nancykress.com/bibliography/)
-2. [[Learning About] Machine Sex by Candas Jane Dorsey](https://www.isfdb.org/cgi-bin/title.cgi?642285)
-3. [Dogfight by William Gibson and Michael Swanwick](https://en.wikipedia.org/wiki/Dogfight_(short_story))
-4. [SQPR by Kim Newman](https://www.isfdb.org/cgi-bin/title.cgi?46865)
-5. [Glass Reptile Breakout by Russell Blackford](https://www.isfdb.org/cgi-bin/title.cgi?65675)
-6. [A Short Course in Art Appreciation by Paul Di Filippo](https://www.isfdb.org/cgi-bin/title.cgi?49251)
-7. [D.GO by Nicholas Royle](https://www.isfdb.org/cgi-bin/title.cgi?46676)
-8. [Coming Attraction by Fritz Leiber](https://www.gutenberg.org/ebooks/51082)
+1. [Gray Noise by Pepe Rojo](https://en.peperojox.xyz/ruido-gris)
+2. [With the Original Cast by Nancy Cress](https://nancykress.com/bibliography/)
+3. [[Learning About] Machine Sex by Candas Jane Dorsey](https://www.isfdb.org/cgi-bin/title.cgi?642285)
+4. [Dogfight by William Gibson and Michael Swanwick](https://en.wikipedia.org/wiki/Dogfight_(short_story))
+5. [SQPR by Kim Newman](https://www.isfdb.org/cgi-bin/title.cgi?46865)
+6. [Glass Reptile Breakout by Russell Blackford](https://www.isfdb.org/cgi-bin/title.cgi?65675)
+7. [Younis in the Belly of the Whale by Yasser Abdellatif](https://www.isfdb.org/cgi-bin/title.cgi?3298570)
+8. [A Short Course in Art Appreciation by Paul Di Filippo](https://www.isfdb.org/cgi-bin/title.cgi?49251)
+9. [Retoxicity by Steve Beard](https://www.isfdb.org/cgi-bin/title.cgi?568101)
+10. [D.GO by Nicholas Royle](https://www.isfdb.org/cgi-bin/title.cgi?46676)
+11. [Coming Attraction by Fritz Leiber](https://www.gutenberg.org/ebooks/51082)
 
 ## 4. *Category*: Challenge
 ## 5. *Category*: Post Cyberpunk
